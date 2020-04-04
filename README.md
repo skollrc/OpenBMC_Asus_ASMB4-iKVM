@@ -14,7 +14,7 @@ Use github repos instead of repos mentioned in the doc:
 
 #### Step 2 : modify/add some files
 * local-aspeed.conf --> modify default hashed password ("0penBmc") by your preferd password (clear text)
-* For more info, see this page: https://www.yoctoproject.org/docs/1.8/ref-manual/ref-manual.html
+* For more info, see this page: https://www.yoctoproject.org/docs/1.8/ref-manual/ref-manual.html#var-EXTRA_USERS_PARAMS
 
 * /etc/perl/find.pl --> create the file with this content : https://blog.kempj.co.uk/2015/09/missing-find-pl-compiling-oe/ 
 * (or dl it from this repo)
