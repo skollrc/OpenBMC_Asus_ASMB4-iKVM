@@ -37,4 +37,4 @@ Use github repos instead of repos mentioned in the doc:
 #### Setp 5: flash
 Use specific asmb4 flashrom version
 * <code> git clone https://github.com/raptor-engineering/flashrom </code>
-* <code> flashrom --programmer="ast1100:spibus=2,cpu=reset" -c "S25FL128P......0" --verbose -w <location of the flash-asus- ROM file></code>
+* <code> flashrom --programmer="ast1100:spibus=2,cpu=reset" -c "S25FL128P......0" --verbose -w paht/of/rom.bin </code>
