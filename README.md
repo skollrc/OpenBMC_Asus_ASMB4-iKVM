@@ -7,10 +7,10 @@ READ THIS DOC FIRST https://www.raptorengineering.com/coreboot/kgpe-d16-bmc-port
 
 #### Setp 1: clone git repos
 Use github repos instead of repos mentioned in the doc:
-<code>git clone -b fido https://github.com/raptor-engineering/ast2050-yocto-poky.git ast2050-yocto-poky</code>
-<code>cd ast2050-yocto-poky</code>
-<code>git clone -b fido https://github.com/raptor-engineering/ast2050-yocto-openembedded.git meta-openembedded</code>
-<code>git clone https://github.com/raptor-engineering/ast2050-yocto-openbmc.git meta-openbmc</code>
+* <code>git clone -b fido https://github.com/raptor-engineering/ast2050-yocto-poky.git ast2050-yocto-poky</code>
+* <code>cd ast2050-yocto-poky</code>
+* <code>git clone -b fido https://github.com/raptor-engineering/ast2050-yocto-openembedded.git meta-openembedded</code>
+* <code>git clone https://github.com/raptor-engineering/ast2050-yocto-openbmc.git meta-openbmc</code>
 
 #### Step 2 : modify/add some files
 local-aspeed.conf --> modify default hashed password ("0penBmc") by your preferd password (clear text)
