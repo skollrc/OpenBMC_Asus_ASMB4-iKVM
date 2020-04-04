@@ -16,7 +16,7 @@ Use github repos instead of repos mentioned in the doc:
 * local-aspeed.conf --> modify default hashed password ("0penBmc") by your preferd password (clear text)
 * For more info, see this page: https://www.yoctoproject.org/docs/1.8/ref-manual/ref-manual.html
 
-*/etc/perl/find.pl --> create the file with this content : https://blog.kempj.co.uk/2015/09/missing-find-pl-compiling-oe/ 
+* /etc/perl/find.pl --> create the file with this content : https://blog.kempj.co.uk/2015/09/missing-find-pl-compiling-oe/ 
 * (or dl it from this repo)
 
 * edit sources/poky/bitbake/lib/bs4/builder/_html5lib.py and replace all instances of "html5lib.treebuilders._base" with "html5lib.treebuilders.base". 
